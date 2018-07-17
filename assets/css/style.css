@@ -16,6 +16,19 @@ h2{
     text-align:left;
     font-family: Georgia, Times, "Times New Roman", serif;
     color:teal;
+    font-size: 2rem;
+}
+h3{
+    text-align:left;
+    font-family: Georgia, Times, "Times New Roman", serif;
+    color:teal;
+    font-size: 2rem;
+}
+h4{
+    text-align:left;
+    font-family: Georgia, Times, "Times New Roman", serif;
+    color:teal;
+    font-size: 2rem;
 }
 #masthead {
     position: fixed;
@@ -77,3 +90,6 @@ footer {
     border-top: 8px solid #4aaaa5;
     height: 50px;
   }
+  .btn:not(:disabled):not(.disabled) {
+    background-color: teal;
+}
